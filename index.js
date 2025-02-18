@@ -1,5 +1,8 @@
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];// 10 elements
+let str1 ="Hello World";
+let str2 = 'Hello World';
+let str3 = `
+    hello 
+    world
+`;// template literal (backtick above tab key)
 
-for(let i=0; i< arr.length; i++){
-  console.log(arr[i])
-}
+console.log(str1, str2, str3);
